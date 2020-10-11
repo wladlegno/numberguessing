@@ -17,8 +17,8 @@ namespace numberguessing
         private static readonly Regex Regex = new Regex("[^0-9]+");
         private int _lives = 10;
         private bool _isInputForced;
-        private bool _canUserType=true;
-        
+        private bool _canUserType = true;
+
         public int Lives
         {
             get => _lives;
@@ -57,6 +57,7 @@ namespace numberguessing
             {
                 TxbInput.Background = new SolidColorBrush(Colors.PaleGreen);
                 TxbInput.Text = "Congrats!";
+                _canUserType = false;
             }
             else
             {
@@ -64,12 +65,12 @@ namespace numberguessing
                 if (Lives > 0)
                 {
                     TxbInput.Text = "Wrong.";
-                    Lives-=1;
+                    Lives -= 1;
                 }
                 else
                 {
-                    _canUserType = false;
                     TxbInput.Text = "You lost!";
+                    _canUserType = false;
                 }
             }
         }
@@ -100,11 +101,12 @@ namespace numberguessing
 
         private void TxbInput_OnPreviewKeyDown(object sender, KeyEventArgs e)
         {
-            if (_canUserType==false)
+            if (_canUserType == false)
             {
                 e.Handled = true;
                 return;
             }
+
             switch (e.Key)
             {
                 case Key.Space:
@@ -122,6 +124,7 @@ namespace numberguessing
                         TxbInput.Background = new SolidColorBrush(Colors.White);
                         TxbInput.Text = "";
                     }
+
                     break;
                 case Key.Escape:
                     Close();
@@ -133,6 +136,7 @@ namespace numberguessing
                         TxbInput.Background = new SolidColorBrush(Colors.White);
                         TxbInput.Text = "";
                     }
+
                     e.Handled = !InputValidator(e.Key);
                     break;
             }

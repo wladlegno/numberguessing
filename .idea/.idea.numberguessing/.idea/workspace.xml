@@ -9,11 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364959b8-2e53-4844-867b-6d5ebae002b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numberguessing/numberguessing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/numberguessing.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +80,7 @@
       <workItem from="1602407439111" duration="2005000" />
       <workItem from="1602416214844" duration="12441000" />
       <workItem from="1602442256679" duration="6227000" />
+      <workItem from="1602448698623" duration="25000" />
     </task>
     <servers />
   </component>
