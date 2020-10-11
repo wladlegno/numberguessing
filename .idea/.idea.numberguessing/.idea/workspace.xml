@@ -9,17 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364959b8-2e53-4844-867b-6d5ebae002b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/App.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/App.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numberguessing/numberguessing.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/numberguessing/MainWindow.xaml" />
       </list>
     </option>
   </component>
@@ -76,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602400621575</updated>
-      <workItem from="1602400637231" duration="81000" />
+      <workItem from="1602400637231" duration="513000" />
     </task>
     <servers />
   </component>
@@ -104,9 +96,13 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="437" y="231" key="IDE.errors.dialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602400682650" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1602400705461">
+    <state x="714" y="446" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602400767928">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1602400705461" />
+    <state x="714" y="446" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602400767928" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1602400732818">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1602400732818" />
   </component>
 </project>
