@@ -58,6 +58,7 @@ namespace numberguessing
                 TxbInput.Background = new SolidColorBrush(Colors.PaleGreen);
                 TxbInput.Text = "Congrats!";
                 _canUserType = false;
+                TxbInput.IsReadOnly = true;
             }
             else
             {
@@ -71,6 +72,7 @@ namespace numberguessing
                 {
                     TxbInput.Text = "You lost!";
                     _canUserType = false;
+                    TxbInput.IsReadOnly = true;
                 }
             }
         }
@@ -101,6 +103,10 @@ namespace numberguessing
 
         private void TxbInput_OnPreviewKeyDown(object sender, KeyEventArgs e)
         {
+            if (e.Key == Key.Escape)
+            {
+                Close();
+            }
             if (_canUserType == false)
             {
                 e.Handled = true;
@@ -115,7 +121,6 @@ namespace numberguessing
                 case Key.Enter:
                     if (InputValidator(TxbInput.Text) && TxbInput.Text != "")
                     {
-                        // TxbInput.Background = new SolidColorBrush(Colors.Red);
                         GuessChecker(Int32.Parse(TxbInput.Text));
                     }
                     else
@@ -125,9 +130,6 @@ namespace numberguessing
                         TxbInput.Text = "";
                     }
 
-                    break;
-                case Key.Escape:
-                    Close();
                     break;
                 default:
                     if (_isInputForced)
