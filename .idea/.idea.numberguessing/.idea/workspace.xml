@@ -9,8 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364959b8-2e53-4844-867b-6d5ebae002b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.numberguessing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numberguessing/numberguessing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/numberguessing/numberguessing.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F32505C5-59F6-4436-9659-51ACD16EAF13/1c/bda34b53/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0D18E9E4-878A-4081-A336-A61538DC57A0/36/3970577a/Number.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50FE65A4-93A0-4952-84F1-E3562EFBE38D/49/d859cd68/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F32505C5-59F6-4436-9659-51ACD16EAF13/aa/0bee0d90/WpfXamlLoader.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/numberguessing/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/numberguessing/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -38,7 +48,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.SQL" />
   </component>
   <component name="RunManager">
     <configuration name="numberguessing" type="DotNetProject" factoryName=".NET Project">
@@ -68,14 +79,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602400621575</updated>
-      <workItem from="1602400637231" duration="513000" />
+      <workItem from="1602400637231" duration="1032000" />
+      <workItem from="1602407439111" duration="2005000" />
+      <workItem from="1602416214844" duration="12441000" />
+      <workItem from="1602442256679" duration="6227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,22 +101,115 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1865" height="209" key="GridCell.Tab.0.bottom" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.0.center" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.0.left" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.0.right" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.1.bottom" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.1.center" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.1.left" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.1.right" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.2.bottom" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.2.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.2.center" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.2.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.2.left" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.2.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.2.right" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.2.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.3.bottom" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.3.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.3.center" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.3.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.3.left" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.3.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.3.right" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.3.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.4.bottom" timestamp="1602448536659">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.4.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536659" />
+    <state width="1865" height="209" key="GridCell.Tab.4.center" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.4.center/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.4.left" timestamp="1602448536658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.4.left/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536658" />
+    <state width="1865" height="209" key="GridCell.Tab.4.right" timestamp="1602448536659">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="209" key="GridCell.Tab.4.right/0.40.1920.1040@0.40.1920.1040" timestamp="1602448536659" />
     <state x="437" y="231" key="IDE.errors.dialog" timestamp="1602400682650">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="437" y="231" key="IDE.errors.dialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602400682650" />
+    <state x="351" y="118" key="SettingsEditor" timestamp="1602419643265">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="351" y="118" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1602419643265" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1602447703658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.40.1920.1040@0.40.1920.1040" timestamp="1602447703658" />
     <state x="714" y="446" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602400767928">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="714" y="446" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602400767928" />
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1602400732818">
+    <state x="532" y="257" key="run.anything.popup" timestamp="1602444206934">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1602400732818" />
+    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1602444206934" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1602448504615">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1602448504615" />
   </component>
 </project>
