@@ -18,6 +18,7 @@ namespace numberguessing
         private int _lives = 10;
         private bool _isInputForced;
         private bool _canUserType = true;
+        private char _keyDigit = '\0';
 
         public int Lives
         {
@@ -34,8 +35,10 @@ namespace numberguessing
         public MainWindow()
         {
             InitializeComponent();
+
+            ConsoleAllocator.ShowConsoleWindow();
+
             PickNumber();
-            OnLivesChange();
             TxbInput.Focus();
         }
 
@@ -59,10 +62,12 @@ namespace numberguessing
                 TxbInput.Text = "Congrats!";
                 _canUserType = false;
                 TxbInput.IsReadOnly = true;
+                LblHint.Content = $"{number}";
             }
             else
             {
                 TxbInput.Background = new SolidColorBrush(Colors.PaleVioletRed);
+                LblHint.Content = number > _pickedNumber ? $"{number} > ?" : $"{number} < ?";
                 if (Lives > 0)
                 {
                     TxbInput.Text = "Wrong.";
@@ -77,22 +82,22 @@ namespace numberguessing
             }
         }
 
-        private bool InputValidator(string str)
+        private bool TextValidator(string str)
         {
             return !Regex.IsMatch(str);
         }
 
-        private bool InputValidator(Key key)
+        private bool KeyValidator(Key key)
         {
-            char num = key.ToString().ToCharArray()[key.ToString().Length - 1];
-            bool isValid = InputValidator(num.ToString());
+            bool isValid = TextValidator(_keyDigit.ToString());
 
-            if (key == Key.Enter || key == Key.Back || key == Key.Escape || isValid)
+            if (isValid)
             {
                 return true;
             }
 
-            return false;
+            _keyDigit = '\0';
+            return key == Key.Enter || key == Key.Back || key == Key.Escape;
         }
 
         private void TxbInput_OnGotFocus(object sender, RoutedEventArgs e)
@@ -103,11 +108,15 @@ namespace numberguessing
 
         private void TxbInput_OnPreviewKeyDown(object sender, KeyEventArgs e)
         {
+            _keyDigit = e.Key.ToString().ToCharArray()[e.Key.ToString().Length - 1];
+            KeyValidator(e.Key);
+
             if (e.Key == Key.Escape)
             {
                 Close();
             }
-            if (_canUserType == false)
+
+            if (!_canUserType)
             {
                 e.Handled = true;
                 return;
@@ -115,11 +124,8 @@ namespace numberguessing
 
             switch (e.Key)
             {
-                case Key.Space:
-                    e.Handled = true;
-                    break;
                 case Key.Enter:
-                    if (InputValidator(TxbInput.Text) && TxbInput.Text != "")
+                    if (TextValidator(TxbInput.Text) && TxbInput.Text != "")
                     {
                         GuessChecker(Int32.Parse(TxbInput.Text));
                     }
@@ -139,7 +145,25 @@ namespace numberguessing
                         TxbInput.Text = "";
                     }
 
-                    e.Handled = !InputValidator(e.Key);
+                    if (KeyValidator(e.Key))
+                    {
+                        if (Int32.Parse(TxbInput.Text + _keyDigit) > 100)
+                        {
+                            e.Handled = true;
+                            TxbInput.Text = "100";
+                        }
+                        else if (Int32.Parse(TxbInput.Text + _keyDigit) < 0)
+                        {
+                            e.Handled = true;
+                            TxbInput.Text = "0";
+                        }
+                    }
+                    else
+                    {
+                        e.Handled = !KeyValidator(e.Key);
+                    }
+
+                    TxbInput.CaretIndex = TxbInput.Text.Length;
                     break;
             }
         }
